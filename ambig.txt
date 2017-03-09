@@ -1,0 +1,19 @@
+South_Africa --> Saudi_Arabia
+Saudi_Arabia ==> Jordan
+Saudi_Arabia ==> England
+Saudi_Arabia --> Qatar
+Qatar ==> Florida
+Qatar --> Saudi_Arabia
+Saudi_Arabia ==> UAE
+Saudi_Arabia ==> England
+Saudi_Arabia ==> UAE
+UAE ==> France
+UAE ==> Saudi_Arabia
+UAE ==> Oman
+UAE ==> Oman
+Saudi_Arabia ==> Qatar
+Saudi_Arabia ==> South_Korea
+South_Korea ==> China
+Saudi_Arabia ==> Indiana
+Saudi_Arabia ==> Egypt
+

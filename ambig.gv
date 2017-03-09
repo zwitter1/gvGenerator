@@ -1,0 +1,37 @@
+digraph "" {
+	graph [	fontname = "Times bold",
+		fontsize = 36,
+		label = "\n\n\n\n"
+		size = "8,8",
+		rankdir = "LR",
+		fontsize = 30 ];
+
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; South_Africa;
+	node [shape = circle, fontname = "Times bold" color="#ba0000", style=filled, fixedsize = "true", fontsize=30, width=3.70]; Saudi_Arabia;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; Jordan;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; England;
+	node [shape = circle, fontname = "Times bold" color="#f70000", style=filled, fixedsize = "true", fontsize=30, width=2.18]; Qatar;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; Florida;
+	node [shape = circle, fontname = "Times bold" color="#f00000", style=filled, fixedsize = "true", fontsize=30, width=2.36]; UAE;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; France;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; Oman;
+	node [shape = circle, fontname = "Times bold" color="#f50000", style=filled, fixedsize = "true", fontsize=30, width=2.24]; South_Korea;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; China;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; Indiana;
+	node [shape = circle, fontname = "Times bold" color="#ff0000", style=filled, fixedsize = "true", fontsize=30, width=2.00]; Egypt;
+	South_Africa -> Saudi_Arabia [ label = "A (1) " style="dotted" minlen=4 fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Saudi_Arabia -> Qatar [ label = "A (1) " style="dotted" minlen=4 fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Qatar -> Saudi_Arabia [ label = "A (1) " style="dotted" minlen=4 fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Saudi_Arabia -> Jordan [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Saudi_Arabia -> England [ label = "N (2) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 2];
+	Saudi_Arabia -> Qatar [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Saudi_Arabia -> UAE [ label = "N (2) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 2];
+	Saudi_Arabia -> South_Korea [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Saudi_Arabia -> Indiana [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Saudi_Arabia -> Egypt [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	Qatar -> Florida [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	UAE -> Saudi_Arabia [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	UAE -> France [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+	UAE -> Oman [ label = "N (2) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 2];
+	South_Korea -> China [ label = "N (1) " style="solid" minlen=4, fontname = "Times bold" fontcolor="#ff0000" fontsize=30 penwidth = 1];
+}
